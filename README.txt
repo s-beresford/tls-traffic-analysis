@@ -1,3 +1,5 @@
+This python tool analyzes pcap files containing TLS traffic and identifies suspicious traffic. The output can be used to determine if the pcap contains malicious TLS traffic.
+
 Ensure you populate the datasets with the most up to date versions. This can be done by running "update_blacklists.sh." Note that this pulls from various third party websites.
 
 This program requires Zeek, unless Zeek logs are already available in the proper format.
@@ -16,9 +18,6 @@ sudo python3 main.py
 
 Output files go to the "output" directory.
 A good place to start is the weird.csv file.
-
-
-
 
 
 Here is what your directory structure should look like:
