@@ -17,7 +17,7 @@ sudo python3 main.py
 
 
 Output files go to the "output" directory.
-A good place to start is the weird.csv file.
+A good place to start is the weird.csv file. A sample output of this file is included for reference. It was generated using various pcaps found on the web.
 
 
 Here is what your directory structure should look like:
